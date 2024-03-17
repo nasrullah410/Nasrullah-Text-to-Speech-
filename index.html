@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Speech Converter</h1>
+        <form action="/generate" method="post">
+            <textarea name="text" rows="4" cols="50" placeholder="Enter text..." required></textarea><br><br>
+            <label for="language">Select a language:</label>
+            <select name="language" id="language">
+                <option value="english">English</option>
+                <option value="urdu">Urdu</option>
+            </select><br><br>
+            <input type="submit" value="Generate">
+        </form>
+    </div>
+</body>
+</html>
