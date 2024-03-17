@@ -1,18 +1,8 @@
-/* Styles for Text to Speech Converter */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
 }
 
 h1 {
@@ -20,49 +10,33 @@ h1 {
     color: #333;
 }
 
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
 textarea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-}
-
-label {
-    font-weight: bold;
-}
-
-select {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 input[type="submit"] {
     padding: 10px 20px;
-    background-color: #333;
+    font-size: 16px;
+    background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #555;
-}
-
-/* Audio Player and Download Button Styles */
 audio {
     width: 100%;
     margin-top: 20px;
 }
 
-.download-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
